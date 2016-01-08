@@ -1,9 +1,10 @@
 .name-text-color{ color: #ffa}
 /*#head-pic{ width: 590; height: 332;}*/
-.center-block{ background: #300; color: #ffc;}
+.center-block{ background: #300; color: #ffa;}
 .center-pad{padding: 10%;
             font-size: 30px;}
 .height{height: 747px; width: 1328px;}
 .bottom-block{background: #ffa}
-.mini-block{background: #500; color: #ffa;
+.mini-block{background: #600; color: #ffa;
         margin: 15; font-size: 18px; text-align: center;}
+        .x{text-transform: }
