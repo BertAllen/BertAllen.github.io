@@ -1,4 +1,5 @@
-.name-text-color{ color: #ffa}
+.name-text-color{ color: #ffa; margin-left: 1em; margin-top: 1em;}
+.dark-text-color{ color: #300; text-align: right; margin-right: 1em;}
 /*#head-pic{ width: 590; height: 332;}*/
 .center-block{ background: #300; color: #ffa;}
 .center-pad{padding: 10%;
