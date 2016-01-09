@@ -3,8 +3,10 @@
 .center-block{ background: #300; color: #ffa;}
 .center-pad{padding: 10%;
             font-size: 30px;}
-.height{height: 747px; width: 1328px;}
+.height{height: 400px; width: 100%;}
 .bottom-block{background: #ffa}
 .mini-block{background: #600; color: #ffa;
         margin: 15; font-size: 18px; text-align: center;}
-        .x{text-transform: }
+        .lovely{background: #777;
+        background: linear-gradient(to right bottom, #300, #ffa); }
+        .glass{ background: rgba(0,0,0,0)}
