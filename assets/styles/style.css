@@ -9,6 +9,14 @@
 .mini-block{background: #600; color: #ffa;
         margin: 2em; font-size: 18px; text-align: center;
         height: 3em; padding: 1em;}
-        .lovely{background: #777;
+.lovely{background: #777;
         background: linear-gradient(to right bottom, #300, #ffa); }
-        .glass{ background: rgba(0,0,0,0)}
+.glass{ background: rgba(0,0,0,0)}
+.color-alternate-one{ background: #145;
+        color: #ffa;
+        margin: 2em; font-size: 18px; text-align: center;
+        height: 3em; padding: 1em;}
+.color-alternate-two{background: #29400c; color: #ffa;
+        margin: 2em; font-size: 18px; text-align: center;
+        height: 3em; padding: 1em;}
+.color-alternate-three{background: #da7}        
