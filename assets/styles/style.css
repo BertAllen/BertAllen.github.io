@@ -19,4 +19,7 @@
 .color-alternate-two{background: #29400c; color: #ffa;
         margin: 2em; font-size: 18px; text-align: center;
         height: 3em; padding: 1em;}
-.color-alternate-three{background: #da7}        
+.color-alternate-three{background: #da7}  
+.on-top{
+        z-index: -10;
+}      
