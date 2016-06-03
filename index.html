@@ -13,16 +13,17 @@
     <link rel="stylesheet" href="/assets/styles/style.css">
 </head>
 <body>
-    <section class="row-sm row-lg row-xs lovely"><!--main container-->
+    <section class="row-sm row-lg row-xs"><!--main container-->
 
-        <div class="col-xs-12 col-lg-12 col-sm-12 height lovely"><!--gradient container-->
+        <div id="main" class="col-xs-12 col-lg-12 col-sm-12 height lovely"><!--gradient container-->
             <h1 class="name-text-color"><b>Bert Allen</b>
-            </br> <img class="on-top" width="200px" src="/assets/img/bert4a.jpg" alt="Picture of Bert"> 
+            </br> <img class="on-top" width="200px" src="/assets/img/bert4b.jpg" alt="Picture of Bert"> 
             </h1>
             <h2 class="dark-text-color float-right">Creative Web Design <br> and Development <br> Solutions</h2>
             <main class="col-xs-offset-2 col-xs-8 col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 center-block" ><!--middle third of page-->
                 <div class="col-xs-8 col-xs-offset-2 col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 center-pad text-center">
                     I could be bounded by a nutshell and count myself a king of infinate space, were it not that I have bad dreams.
+                    <sub> <em> Hamlet — Act 2, Scene 2</em></sub>
                 </div>
             </main><!--end of middle third-->
             <footer class="col-xs-12 col-lg-12 col-sm-12"><!--bottom third of page-->
@@ -30,10 +31,10 @@
                 <div class="col-xs-3 col-lg-3 col-sm-3 mini-block">
                    <a class="right-text-color" href="">Resumé</a>
                 </div>
-                <div class="col-xs-3 col-lg-3 col-sm-3 color-alternate-one">
+                <div class="col-xs-3 col-lg-3 col-sm-3 mini-block">
                    <a class="right-text-color" href="">Applications</a>
                 </div>
-                <div class="col-xs-3 col-lg-3 col-sm-3 color-alternate-two">
+                <div class="col-xs-3 col-lg-3 col-sm-3 mini-block">
                    <a class="right-text-color" href="">LinkedIn</a>
                 </div>
 
@@ -41,5 +42,46 @@
          </div><!--end of end of gradient container-->
         
     </section><!--end of main container-->
+          
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js">
+    </script>
+      <script>
+          
+          var delay = 3000;
+
+       var top1 = d3.selectAll("h1");
+       top1.style("color", "rgba(255,255,170,0)");
+       var top2 = d3.selectAll("h2");
+       top2.style("color", "rgba(51,0,0,0)");
+       
+                var foot = d3.selectAll("footer");
+                var miniFoot = foot.selectAll("div").select(":first-child");
+                miniFoot.style("color", "rgba(255,255,170,0)");
+                foot.select(":nth-child(1)").style("background", "rgba(102,0,0,0)");
+                foot.select(":nth-child(2)").style("background", "rgba(17,68,85,0)");
+                foot.select(":nth-child(3)").style("background", "rgba(41,64,12,0)");
+       
+       var main =d3.selectAll("main").select(":only-child");
+       main.style("color", "rgba(255,255,170,0)");
+       
+       top1.transition().style("color", "rgba(255,255,170,1)").duration(delay-500);
+       top2.transition().style("color", "rgba(51,0,0,1)").duration(delay).each("end", function(){
+                
+                main.transition().style("color", "rgba(255,255,170,1)").duration(delay).each("end", function(){
+
+                foot.select(":nth-child(1)").transition().style("background", "rgba(102,0,0,1)").duration(delay-1000).each("end", function(){
+                foot.select(":nth-child(2)").transition().style("background", "rgba(17,68,85,1)").duration(delay-1000).each("end", function(){
+                foot.select(":nth-child(3)").transition().style("background", "rgba(41,64,12,1)").duration(delay-1000)
+                })})
+                foot.select(":nth-child(1)").select(":only-child").transition().style("color", "rgba(255,255,170,1)").duration(delay-1000).each("end", function(){
+                    foot.select(":nth-child(2)").select(":only-child").transition().style("color", "rgba(255,255,170,1)").duration(delay-1000).each("end", function(){
+                        foot.select(":nth-child(3)").select(":only-child").transition().style("color", "rgba(255,255,170,1)").duration(delay-1000)
+                    })})
+                    })
+                })
+
+    </script>
+    
 </body>
 </html>

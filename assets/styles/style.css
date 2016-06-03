@@ -1,7 +1,7 @@
-.name-text-color{ color: #ffa; margin-left: 1em; margin-top: 1em;}
-.dark-text-color{ color: #300; text-align: right; margin-right: 1em;}
+.name-text-color{margin-left: 1em; margin-top: 1em;}
+.dark-text-color{text-align: right; margin-right: 1em;}
 /*#head-pic{ width: 590; height: 332;}*/
-.center-block{ background: #300; color: #ffa;
+.center-block{
                 background: linear-gradient(to right bottom, #600, #300 )}
 .center-pad{padding: 10%;
             font-size: 30px;
@@ -9,25 +9,25 @@
             }
 .height{height: 100%x; width: 100%;}
 .bottom-block{background: #ffa}
-.mini-block{background: #600; color: #ffa;
-        margin: 2em; font-size: 18px; text-align: center;
-        height: 3em; padding: 1em;}
-.lovely{background: #777;
+.neutral{ background: #777;}
+.lovely{
         background: linear-gradient(to right bottom, #300, #ffa); }
 .glass{ background: rgba(0,0,0,0)}
-.color-alternate-one{ background: #145;
-        color: #ffa;
+.text22{color: #ffa;}
+.text33{ color: #300; }
+.mini-block{
         margin: 2em; font-size: 18px; text-align: center;
         height: 3em; padding: 1em;}
-.color-alternate-two{background: #29400c; color: #ffa;
-        margin: 2em; font-size: 18px; text-align: center;
-        height: 3em; padding: 1em;}
-.color-alternate-three{background: #da7}  
+.mini-block.color-one{background: #145}
+.mini-block.color-two{background: #29400c}
+.mini-block.color-three{background: #600}  
+.color-four{background: #da7}  
 .on-top{
         /*border: solid #600 4px;*/
         z-index: 10;
         position: absolute;
+        
 }    
-.right-text-color{
+/*.right-text-color{
         color: #ffa;
-}  
+}  */
