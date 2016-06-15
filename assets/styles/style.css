@@ -4,7 +4,8 @@
 .center-block{
                 background: linear-gradient(to right bottom, #600, #300 )}
 .center-pad{padding: 10%;
-            font-size: 30px;
+            font-size: 2em;
+            /*font size was 30px*/
             /*position: relative;*/
             }
 .height{height: 100%x; width: 100%;}
@@ -16,7 +17,8 @@
 .text22{color: #ffa;}
 .text33{ color: #300; }
 .mini-block{
-        margin: 2em; font-size: 18px; text-align: center;
+        /*font size was 18px*/
+        margin: 2em; font-size: 1em; text-align: center;
         height: 3em; padding: 1em;}
 .mini-block.color-one{background: #145}
 .mini-block.color-two{background: #29400c}
