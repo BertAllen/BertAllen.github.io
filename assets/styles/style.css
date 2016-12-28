@@ -1,10 +1,11 @@
-.name-text-color{margin-left: 1em; margin-top: 1em;}
-.dark-text-color{text-align: right; margin-right: 1em;}
+.name-text-color{margin-left: 1em; margin-top: 1em; color: #ffa}
+.dark-text-color{text-align: right; margin-right: 1em; color: #300; font-weight: bold}
 /*#head-pic{ width: 590; height: 332;}*/
 .center-block{
                 background: linear-gradient(to right bottom, #600, #300 )}
 .center-pad{padding: 10%;
             font-size: 2em;
+            color: #ffa
             /*font size was 30px*/
             /*position: relative;*/
             }
@@ -18,8 +19,11 @@
 .text33{ color: #300; }
 .mini-block{
         /*font size was 18px*/
-        margin: 2em; font-size: 1em; text-align: center;
-        height: 3em; padding: 1em;}
+        margin: 2em; 
+        font-size: 1em; 
+        text-align: center;
+        /*height: 3em; */
+        padding: 1em;}
 .mini-block.color-one{background: #145}
 .mini-block.color-two{background: #29400c}
 .mini-block.color-three{background: #600}  
@@ -30,6 +34,6 @@
         position: absolute;
         
 }    
-/*.right-text-color{
+.right-text-color{
         color: #ffa;
-}  */
+}  
