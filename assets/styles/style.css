@@ -34,6 +34,12 @@
         position: absolute;
         
 }    
+.high-top{
+        z-index: 11;
+}
+.highest-top{
+        z-index: 12;
+}
 .right-text-color{
         color: #ffa;
 }  
